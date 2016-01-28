@@ -11,4 +11,4 @@ function randNum(min, max) {
 
 // Set a random background image
 // Thanks Arosboro at http://stackoverflow.com/a/5263171
-$(document.body).css('background-image', 'url("img/canvas' + randNum(1, 5) + '.png")');
+$(document.body).css('background-image', 'url("img/cover/canvas' + randNum(1, 5) + '.png")');
