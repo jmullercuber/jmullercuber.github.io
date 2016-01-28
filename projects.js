@@ -1,7 +1,7 @@
 function Project(title, desc, imgSrc, link, imgAlt) {
   this.title = title;
   this.desc = desc;
-  this.imgSrc = imgSrc;
+  this.imgSrc = "img/projects/" + imgSrc;
   // Optional params
   if (link) { this.link = link; }
   if (imgAlt) { this.imgAlt = imgAlt; }
@@ -11,21 +11,21 @@ function Project(title, desc, imgSrc, link, imgAlt) {
 var projects = [
   new Project(
     "Lovely",
-    "desc",
-    "imgSrc",
-    "link"
+    "Lovely Chocolate Chip is a cooking-assistant web app. Use it to discover new recipes and follow along to make something lovely",
+    "lovely.png",
+    "http://lovely.eastus.cloudapp.azure.com/"
   ),
   new Project(
     "KangaScript",
-    "desc",
-    "imgSrc",
-    "link"
+    "A multi paradigmal, loosely-typed, Python-interpreter custom computer language. Made for my high school ('15) senior project.",
+    "kangascript.png",
+    "http://jmullercuber.github.io/KangaScript/"
   ),
   new Project(
     "Frantastic",
-    "desc",
-    "imgSrc",
-    "link"
+    "Create Fractals with visual interface simmilar to Scratch. Design project for AP Computer Science",
+    "frantastic.png",
+    "https://github.com/jmullercuber/Frantastic"
   ),
 ];
 
