@@ -27,6 +27,24 @@ var projects = [
     "frantastic.png",
     "https://github.com/jmullercuber/Frantastic"
   ),
+  new Project(
+    "Robotics Quiz 2014",
+    "Competitive quiz to help my FRC team study the rules of AERIAL ASSIST. Made by me and other members of Team 3807, Blazerbots",
+    "blazerbots.gif",
+    "http://jmullercuber.github.io/Robotics-Quiz-2014/"
+  ),
+  new Project(
+    "O",
+    "HTML5 video game me and some of my friends made. For 2014 Video Game Design competition, Technology Student Association, Colorado Convention",
+    "o-game.png",
+    "http://jmullercuber.github.io/OHSTSA-GameDesign-2014-O/O/public_html/index.html"
+  ),
+  new Project(
+    "O",
+    "HTML5 video game me and some of my friends made. For 2014 Video Game Design competition, Technology Student Association, Colorado Convention",
+    "o-game.png",
+    "http://jmullercuber.github.io/OHSTSA-GameDesign-2014-O/O/public_html/index.html"
+  ),
 ];
 
 // reference to footer (don't have to lookup all the time)
