@@ -1,32 +1,32 @@
+function Project(title, desc, imgSrc, link, imgAlt) {
+  this.title = title;
+  this.desc = desc;
+  this.imgSrc = imgSrc;
+  // Optional params
+  if (link) { this.link = link; }
+  if (imgAlt) { this.imgAlt = imgAlt; }
+  else { this.imgAlt = "[" + this.title + " image]"; }
+}
+
 var projects = [
-  {
-    title: "Lovely",
-    desc: "",
-    link: "",
-    imgSrc: "",
-    imgAlt: "",
-  },
-  {
-    title: "KangaScript",
-    desc: "",
-    link: "",
-    imgSrc: "",
-    imgAlt: "",
-  },
-  {
-    title: "H",
-    desc: "",
-    link: "",
-    imgSrc: "",
-    imgAlt: "",
-  },
-  {
-    title: "H",
-    desc: "",
-    link: "",
-    imgSrc: "",
-    imgAlt: "",
-  },
+  new Project(
+    "Lovely",
+    "desc",
+    "imgSrc",
+    "link"
+  ),
+  new Project(
+    "KangaScript",
+    "desc",
+    "imgSrc",
+    "link"
+  ),
+  new Project(
+    "Frantastic",
+    "desc",
+    "imgSrc",
+    "link"
+  ),
 ];
 
 // reference to footer (don't have to lookup all the time)
@@ -51,7 +51,7 @@ while (projects.length > 0) {
     p.append('<img class="img-circle" src="' + proj.imgSrc + '" alt="' + proj.imgAlt + '" width="140" height="140">');
     p.append('<h2>' + proj.title + '</h2>');
     p.append('<p>' + proj.desc + '</p>');
-    if (p.link) {
+    if (proj.link) {
       p.append('<p><a class="btn btn-default" href="' + proj.link + '" role="button">View details &raquo;</a></p>');
     }
 
