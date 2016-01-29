@@ -1,5 +1,6 @@
-function Project(title, desc, imgSrc, link, imgAlt) {
+function Project(title, date, desc, imgSrc, link, imgAlt) {
   this.title = title;
+  this.date = date;
   this.desc = desc;
   this.imgSrc = "img/projects/" + imgSrc;
   // Optional params
@@ -11,36 +12,35 @@ function Project(title, desc, imgSrc, link, imgAlt) {
 var projects = [
   new Project(
     "Lovely",
+    new Date("2016-01-26"),
     "Lovely Chocolate Chip is a cooking-assistant web app. Use it to discover new recipes and follow along to make something lovely",
     "lovely.png",
     "http://lovely.eastus.cloudapp.azure.com/"
   ),
   new Project(
     "KangaScript",
+    new Date("2015-05-14"),
     "A multi paradigmal, loosely-typed, Python-interpreter custom computer language. Made for my high school ('15) senior project.",
     "kangascript.png",
     "http://jmullercuber.github.io/KangaScript/"
   ),
   new Project(
     "Frantastic",
-    "Create Fractals with visual interface simmilar to Scratch. Design project for AP Computer Science",
+    new Date("2014-05-26"),
+    "Create Fractals with visual interface similar to Scratch. Design project for AP Computer Science",
     "frantastic.png",
     "https://github.com/jmullercuber/Frantastic"
   ),
   new Project(
     "Robotics Quiz 2014",
+    new Date("2014-03-01"),
     "Competitive quiz to help my FRC team study the rules of AERIAL ASSIST. Made by me and other members of Team 3807, Blazerbots",
     "blazerbots.gif",
     "http://jmullercuber.github.io/Robotics-Quiz-2014/"
   ),
   new Project(
     "O",
-    "HTML5 video game me and some of my friends made. For 2014 Video Game Design competition, Technology Student Association, Colorado Convention",
-    "o-game.png",
-    "http://jmullercuber.github.io/OHSTSA-GameDesign-2014-O/O/public_html/index.html"
-  ),
-  new Project(
-    "O",
+    new Date("2014-02-01"),
     "HTML5 video game me and some of my friends made. For 2014 Video Game Design competition, Technology Student Association, Colorado Convention",
     "o-game.png",
     "http://jmullercuber.github.io/OHSTSA-GameDesign-2014-O/O/public_html/index.html"
@@ -61,6 +61,12 @@ while (projects.length > 0) {
 
   // create each project
   for (var proj in sub_p) {
+    // padding to center 1 or 2 projects
+    if (sub_p.length < 3) {
+      n = 4*(3-sub_p.length)/2;
+      row.append('<div class="col-lg-' + n + '"></div>');
+    }
+
     // create the element representing the project
     p = $('<div class="col-lg-4"></div>');
 
@@ -75,6 +81,12 @@ while (projects.length > 0) {
 
     // add the project element to the row
     row.append( p );
+
+    // padding to center 1 or 2 projects
+    if (sub_p.length < 3) {
+      n = 4*(3-sub_p.length)/2;
+      row.append('<div class="col-lg-' + n + '"></div>');
+    }
   }
 
   // add divider after sub group
