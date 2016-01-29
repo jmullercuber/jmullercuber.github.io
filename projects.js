@@ -45,6 +45,20 @@ var projects = [
     "o-game.png",
     "http://jmullercuber.github.io/OHSTSA-GameDesign-2014-O/O/public_html/index.html"
   ),
+  new Project(
+    "WebRTC Snaps",
+    new Date("2013-10-20"),
+    "A photo booth application. Take stylish pictures from your webcam, view and download them.",
+    "snaps.png",
+    "https://googledrive.com/host/0B9dIk3Bgy0VpeDhwOGFJOWtMVlk/index.html"
+  ),
+  new Project(
+    "Game of Life",
+    new Date("2013-10-03"),
+    "My first Canvas app, turned into a template for many personal side-projects and spin-offs.",
+    "life.png",
+    "https://googledrive.com/host/0B9dIk3Bgy0VpNnBMQXhabVRXdk0/index.html"
+  ),
 ];
 
 // reference to footer (don't have to lookup all the time)
