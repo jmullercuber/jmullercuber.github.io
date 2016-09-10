@@ -11,11 +11,11 @@ function Project(title, date, desc, imgSrc, link, imgAlt) {
 
 var projects = [
   new Project(
-    "Lovely",
+    "[Dev] Lovely",
     new Date("2016-01-26"),
     "Lovely Chocolate Chip is a cooking-assistant web app. Use it to discover new recipes and follow along to make something lovely",
     "lovely.png",
-    "http://lovely.eastus.cloudapp.azure.com/"
+    "http://lovely.joeymuller.me/"
   ),
   new Project(
     "KangaScript",
