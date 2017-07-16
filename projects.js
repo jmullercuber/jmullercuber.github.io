@@ -20,35 +20,35 @@ var projects = [
   new Project(
     "[Dev] Lovely",
     new Date("2016-01-26"),
-    "Lovely Chocolate Chip is a cooking-assistant web app. Use it to discover new recipes and follow along to make something lovely",
+    "Lovely Chocolate Chip is a cooking-assistant web app. Use it to discover new recipes and follow along to make something lovely. Started as project for 6.148, Web Programming Competition, taken at MIT during IAP 2016.",
     "lovely.png",
     "http://lovely.joeymuller.me/"
   ),
   new Project(
     "KangaScript",
     new Date("2015-05-14"),
-    "A multi paradigmal, loosely-typed, Python-interpreter custom computer language. Made for my high school ('15) senior project.",
+    "A multi paradigmal, loosely-typed, Python-interpreted, custom computer language. Made for my senior project at Overland High School, Class of 2015.",
     "kangascript.png",
     "http://jmullercuber.github.io/KangaScript/"
   ),
   new Project(
     "Frantastic",
     new Date("2014-05-26"),
-    "Create Fractals with visual interface similar to Scratch. Design project for AP Computer Science",
+    "Create Fractals with visual interface similar to Scratch. Design project for AP Computer Science.",
     "frantastic.png",
     "https://github.com/jmullercuber/Frantastic"
   ),
   new Project(
     "Robotics Quiz 2014",
     new Date("2014-03-01"),
-    "Competitive quiz to help my FRC team study the rules of AERIAL ASSIST. Made by me and other members of Team 3807, Blazerbots",
+    "Competitive quiz to help my FRC team study the rules of AERIAL ASSIST. Made by me and other members of Team 3807, Blazerbots.",
     "blazerbots.gif",
     "http://jmullercuber.github.io/Robotics-Quiz-2014/"
   ),
   new Project(
     "O",
     new Date("2014-02-01"),
-    "HTML5 video game me and some of my friends made. For 2014 Video Game Design competition, Technology Student Association, Colorado Convention",
+    "HTML5 video game me and some of my friends made. For 2014 Video Game Design competition, Technology Student Association, Colorado Convention.",
     "o-game.png",
     "http://jmullercuber.github.io/OHSTSA-GameDesign-2014-O/O/public_html/index.html"
   ),
