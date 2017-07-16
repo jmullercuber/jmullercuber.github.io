@@ -93,7 +93,7 @@ while (projects.length > 0) {
 
     // populate the project element with info
     proj = sub_p[proj];
-    p.append('<img class="img-circle" src="' + proj.imgSrc + '" alt="' + proj.imgAlt + '" width="140" height="140">');
+    p.append('<a href="' + proj.link + '"><img class="img-circle" src="' + proj.imgSrc + '" alt="' + proj.imgAlt + '" width="140" height="140"></a>');
     p.append('<h2>' + proj.title + '</h2>');
     p.append('<p>' + proj.desc + '</p>');
     if (proj.link) {
