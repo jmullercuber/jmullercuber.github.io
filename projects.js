@@ -11,6 +11,13 @@ function Project(title, date, desc, imgSrc, link, imgAlt) {
 
 var projects = [
   new Project(
+    "What is Precession?",
+    new Date("2016-05-02"),
+    "An 8-minute educational video discussing the causes and effects of gyroscopic precession. Produced for my final project in ES.333, Producing Educational Videos, taken at MIT in Spring 2016.",
+    "es333.png",
+    "https://www.youtube.com/watch?v=mahJJp9drT0"
+  ),
+  new Project(
     "[Dev] Lovely",
     new Date("2016-01-26"),
     "Lovely Chocolate Chip is a cooking-assistant web app. Use it to discover new recipes and follow along to make something lovely",
