@@ -18,11 +18,32 @@ var projects = [
     "https://github.com/jmullercuber/SNES_Mobile_Gamepad"
   ),
   new Project(
+    "HackMIT 2017",
+    new Date("2017-09-16"),
+    "An educational app which generates unique reading comprehension questions for students given any text input.",
+    "hack.png",
+    "https://devpost.com/software/quaestio"
+  ),
+  new Project(
+    "HackHarvard 2016",
+    new Date("2016-10-22"),
+    "Sometimes you're walking around Cambridge, MA with your friend, and even though you totally didn't plan on it, and it's been a busy school week and psets are due, you join a hackathon anyways... cuz why not.",
+    "hack.png",
+    "https://devpost.com/software/twitter-reddit-trakker"
+  ),
+  new Project(
     "What is Precession?",
     new Date("2016-05-02"),
     "An 8-minute educational video discussing the causes and effects of gyroscopic precession. Produced for my final project in ES.333, Producing Educational Videos, taken at MIT in Spring 2016.",
     "es333.png",
     "https://www.youtube.com/watch?v=mahJJp9drT0"
+  ),
+  new Project(
+    "MakeMIT 2016",
+    new Date("2016-02-13"),
+    "Ngl, this project only looks really rough because.... well it was pretty rough. This a first as far as hardware hackathons for me and my friends.",
+    "hack.png",
+    "https://devpost.com/software/color-board"
   ),
   new Project(
     "Lovely",
