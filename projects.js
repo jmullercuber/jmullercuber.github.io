@@ -32,6 +32,12 @@ var projects = [
     "https://devpost.com/software/twitter-reddit-trakker"
   ),
   new Project(
+    "Underwater Robot",
+    new Date("2016-07-15"),
+    "Borrowing a SeaPearch kit from our former high school, me and my boi spent the summer building an underwater rover and getting our hands dirty constucting a bi-directional motor controller.",
+    ""
+  ),
+  new Project(
     "What is Precession?",
     new Date("2016-05-02"),
     "An 8-minute educational video discussing the causes and effects of gyroscopic precession. Produced for my final project in ES.333, Producing Educational Videos, taken at MIT in Spring 2016.",
