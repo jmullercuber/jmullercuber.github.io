@@ -57,14 +57,14 @@ var projects = [
     new Date("2013-10-20"),
     "A photo booth application. Take stylish pictures from your webcam, view and download them.",
     "snaps.png",
-    "https://googledrive.com/host/0B9dIk3Bgy0VpeDhwOGFJOWtMVlk/index.html"
+    "https://jmullercuber.github.io/old_html5_projects/webRTC_snaps/"
   ),
   new Project(
     "Game of Life",
     new Date("2013-10-03"),
     "My first Canvas app, turned into a template for many personal side-projects and spin-offs.",
     "life.png",
-    "https://googledrive.com/host/0B9dIk3Bgy0VpNnBMQXhabVRXdk0/index.html"
+    "https://jmullercuber.github.io/old_html5_projects/life/"
   ),
 ];
 
