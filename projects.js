@@ -97,7 +97,7 @@ while (projects.length > 0) {
     p.append('<h2>' + proj.title + '</h2>');
     p.append('<p>' + proj.desc + '</p>');
     if (proj.link) {
-      p.append('<p><a class="btn btn-default" href="' + proj.link + '" role="button">View details &raquo;</a></p>');
+      p.append('<p><a class="btn btn-default" href="' + proj.link + '" role="button">Check it out &raquo;</a></p>');
     }
 
     // add the project element to the row
