@@ -2,8 +2,8 @@ function Project(title, date, desc, imgSrc, link, imgAlt) {
   this.title = title;
   this.date = date;
   this.desc = desc;
-  this.imgSrc = "img/projects/" + imgSrc;
   // Optional params
+  this.imgSrc = "img/projects/" + (imgSrc ? imgSrc: 'default.png');
   if (link) { this.link = link; }
   if (imgAlt) { this.imgAlt = imgAlt; }
   else { this.imgAlt = "[" + this.title + " image]"; }
