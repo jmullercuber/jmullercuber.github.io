@@ -11,6 +11,13 @@ function Project(title, date, desc, imgSrc, link, imgAlt) {
 
 var projects = [
   new Project(
+    "Retropie and SNES Mobile Gamepad",
+    new Date("2017-09-16"),
+    "I turned a Raspberry Pi into a home gaming system using Retropie and built a (proof-of-concept) gamepad for mobile devices.",
+    "",
+    "https://github.com/jmullercuber/SNES_Mobile_Gamepad"
+  ),
+  new Project(
     "What is Precession?",
     new Date("2016-05-02"),
     "An 8-minute educational video discussing the causes and effects of gyroscopic precession. Produced for my final project in ES.333, Producing Educational Videos, taken at MIT in Spring 2016.",
