@@ -22,7 +22,7 @@ var projects = [
     new Date("2016-01-26"),
     "Lovely Chocolate Chip is a cooking-assistant web app. Use it to discover new recipes and follow along to make something lovely. Started as project for 6.148, Web Programming Competition, taken at MIT during IAP 2016.",
     "lovely.png",
-    "http://lovely.joeymuller.me/"
+    "https://github.com/jmullercuber/lovely-blaze"
   ),
   new Project(
     "KangaScript",
