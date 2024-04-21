@@ -11,8 +11,31 @@ function Project(title, date, desc, imgSrc, link, imgAlt) {
 
 var projects = [
   new Project(
+    "Total Solar Eclipse 2024",
+    new Date("2024-04-08"),
+    "I went on a road trip to go see a total solar eclipse. I made a couple of projects in preparation for this: 1) I built a telescope-phone mount, using scrap wood and $10 of hardware store materials. It looked very janky, but kind-of worked. 2) To mitigate the risk of clouds obscuring the view, I wrote some scripts to generate custom forecast maps. The forecasts helped plan the destination!",
+    "eclipse2024.png",
+    "https://github.com/jmullercuber/eclipse-weather-forecast",
+    "Solar Eclipse"
+  ),
+  new Project(
+    "Easy Timecard",
+    new Date("2023-08-03"),
+    "I was doing consulting work and wanted a low-effort way to track how long I spent overall by tracking starts and stops.",
+    "timecard.svg",
+    "https://jmullercuber.github.io/timecard/"
+  ),
+  new Project(
+    "Hackday: Cross-Platform Clippy!",
+    new Date("2021-04-02"),
+    "Do you miss Clippy? Wish he could be anywhere on your desktop? Need someone to check-in if you need help? Well that's exactly what this project is! Created for a hackday at Panasonic. I learned about Electron and packaging desktop apps. <br/>(Tested primarily on Ubuntu).",
+    "clippy.png",
+    "https://github.com/jmullercuber/chaotic-kumo/releases",
+    "clippy"
+  ),
+  new Project(
     "Retropie and SNES Mobile Gamepad",
-    new Date("2017-09-16"),
+    new Date("2018-07-06"),
     "I turned a Raspberry Pi into a home gaming system using Retropie and built a (proof-of-concept) gamepad for mobile devices.",
     "",
     "https://github.com/jmullercuber/SNES_Mobile_Gamepad"
