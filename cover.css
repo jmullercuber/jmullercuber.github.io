@@ -112,8 +112,10 @@ body {
  * Cover
  */
 
-.cover {
-  padding: 0 20px;
+.cover.inner {
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: saturate(180%) blur(10px);
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -154,6 +156,12 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+  .cover.inner {
+    width: 70%;
+    margin: auto;
+    border-radius: 50px;
   }
 }
 
